@@ -128,6 +128,26 @@ animation: rotate infinite 3s;
     width: 100%;
 }
 
+.header {
+    height: 100vh;
+}
+.banner {
+    height: 80%;
+    position: relative;
+    background: url(../img/bg_banner.png) no-repeat center/cover;
+    z-index: 1;
+}
+
+.banner__abs {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;    
+background: #070F19BF;
+z-index: -1;
+}
+
 @keyframes rotate {
     from {
      transform: rotateY(0deg);   
@@ -135,5 +155,8 @@ animation: rotate infinite 3s;
     to {
         transform: rotateY(360deg);   
     }
-    
+
 }
+
+
+
