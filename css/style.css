@@ -135,7 +135,7 @@ body {
 .banner {
     height: 80%;
     position: relative;
-    background: url(../img/bg_banner.png) no-repeat center/cover;
+    background: url(../img/bg_banner.png) no-repeat center right/cover;
     z-index: 1;
 }
 
@@ -200,6 +200,8 @@ body {
     background: var(--orange);
     color: var(--black);
 }
+
+
 
 
 
