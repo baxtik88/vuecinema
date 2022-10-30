@@ -1,3 +1,11 @@
+@media screen and (max-width:1140px) {
+    .films__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+
 
 @media screen and (max-width:640px) {
 .banner__h {
@@ -27,9 +35,10 @@
     }
     
     
-@media screen and (max-width:338px) {
+@media screen and (max-width:360px) {
     .banner__h {
-        font-size: 30px;
-        margin-bottom: -10px;
+        font-size: 28px;
+        /* margin-bottom: -10px; */
+        line-height: 30px;
     }
     }

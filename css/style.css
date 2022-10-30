@@ -128,12 +128,10 @@ body {
     width: 100%;
 }
 
-.header {
-    height: 100vh;
-}
+
 
 .banner {
-    height: 78%;
+    height: 80vh;
     position: relative;
     background: url(../img/bg_banner.png) no-repeat center right/cover;
     z-index: 1;
@@ -203,7 +201,7 @@ body {
 
 
 .films {
-    padding:60px 0 77px;
+    padding: 60px 0 77px;
 }
 
 .title {
@@ -231,9 +229,11 @@ body {
 }
 
 .card {
-    background: url(../img/card1.png) no-repeat center/cover;
-    max-width: 255px;
+    background: url(../img/card1.png) no-repeat top center/cover;
+    max-width: 335px;
     height: 367px;
+    width: 100%;
+    min-width: 255px;
     border-radius: 6px;
     display: flex;
     align-items: center;
