@@ -6,6 +6,12 @@
     } 
 }
 
+@media screen and (max-width:768px) {
+    .trailer__post {
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width:640px) {
 .banner__h {
