@@ -1,6 +1,52 @@
+@media screen and (max-width:1140px) {
+    .films__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .collections__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .trailer__post {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    .banner__h {
+        font-size: 47px;
+    }
+}
+
+
 @media screen and (max-width:568px) {
     .header__wrap {
         flex-direction: column;
         gap: 15px;
+    }
+   
+}
+
+@media screen and (max-width:470px) {
+    .banner__h {
+        font-size: 33px;
+    }
+    .banner__links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:360px) {
+    .banner__h {
+        font-size: 28px;
+        line-height: 30px;
     }
 }
