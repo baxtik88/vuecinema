@@ -352,10 +352,12 @@ body {
     z-index: 9;
     overflow: hidden;
 }
-.collect__card:nth-child(2){
+
+.collect__card:nth-child(2) {
     background: url(../img/collect2.png) no-repeat center/cover;
 }
-.collect__card:nth-child(3){
+
+.collect__card:nth-child(3) {
     background: url(../img/collect3.png) no-repeat center/cover;
 }
 
@@ -399,9 +401,11 @@ body {
 .collect__card:hover .lines {
     transform: scale(1);
 }
+
 .collect__card:hover .collect__body {
     transform: scale(1.3);
 }
+
 .collect__card:hover .collect__icon {
     transform: rotateX(360deg);
 }
@@ -411,8 +415,49 @@ body {
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
-
 }
+
+.series {
+    padding: 63px 0 30px;
+}
+
+.thrones {
+    padding: 96px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    background: url(../img/game__bg.png);
+}
+
+.thrones__bg {
+    background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 10.86%, rgba(11, 11, 11, 0.6) 110.86%);
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.thrones__h {
+    font-family: var(--comf);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.thrones__p {
+font-family: var(--comf);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin: 27px 0 30px;
+}
+
 
 
 @keyframes rotate {
