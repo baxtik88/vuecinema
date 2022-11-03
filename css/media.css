@@ -10,7 +10,10 @@
         align-items: center;
         gap: 30px;
     }
-    
+    .cards__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -31,6 +34,10 @@
     .header__wrap {
         flex-direction: column;
         gap: 15px;
+    }
+    .thrones {
+    font-size: 30px;
+        
     }
    
 }
