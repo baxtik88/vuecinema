@@ -1,3 +1,10 @@
+@media screen and (max-width:1148px) {
+.footer__wrap {
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
 @media screen and (max-width:1140px) {
     .films__wrap {
         flex-wrap: wrap;
@@ -56,4 +63,9 @@
         font-size: 28px;
         line-height: 30px;
     }
+    .footer__p {
+        font-size: 14px;
+    }
 }
+    
+
